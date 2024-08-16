@@ -14,8 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />}></Route>
         <Route path="/user-table" element={<UserTable />}></Route>
-        <Route path="/create" element={<Create />}></Route>
-        {/* <Route path="/edit/:id" element={<Update />}></Route> */}
+        {/* <Route path="/create" element={<Create />}></Route> */}
+        <Route path="/edit/:id" element={<Create />}></Route>
       </Routes>
     </BrowserRouter>
     </>
